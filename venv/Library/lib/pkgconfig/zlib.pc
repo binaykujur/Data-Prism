@@ -1,0 +1,13 @@
+prefix=D:/Data Prism/venv/Library
+exec_prefix=D:/Data Prism/venv/Library
+libdir=D:/Data Prism/venv/Library/lib
+sharedlibdir=D:/Data Prism/venv/Library/lib
+includedir=D:/Data Prism/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
