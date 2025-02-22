@@ -4,7 +4,7 @@ import numpy as np
 from io import StringIO
 
 # Title of the app
-st.title("Advanced Data Cleaning App")
+st.title("Data Prism")
 
 # Upload dataset
 uploaded_file = st.file_uploader("Upload your dataset (CSV or Excel)", type=["csv", "xlsx"])
